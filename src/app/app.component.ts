@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'clase_2';
+  public num: number = 0;
+
+  public increment() {
+    this.num++;
+  }
+  public decrement() {
+    this.num--;
+  }
 }
